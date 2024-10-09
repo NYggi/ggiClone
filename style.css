@@ -57,6 +57,14 @@ header {
     text-transform: uppercase;
     font-size: 0.9rem;
 }
+.nav-container {
+    max-width: 1200px;          /* Limit content width to a reasonable size */
+    margin: 0 auto;             /* Center the container horizontally */
+    display: flex;
+    justify-content: space-between;  /* Evenly space out logo, nav, and cart icon */
+    align-items: center;        /* Vertically center the items */
+    padding: 0 20px;            /* Add padding on the left and right */
+}
 
 .cart-icon a {
     font-size: 1.5rem;
